@@ -97,11 +97,16 @@ Bookings
 Notifications
 Ratings
 🚀 How to Run
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
+# Navigate to the project folder
+cd AI-CarPooling-Project-main
 
-Open:
+# Activate the existing virtual environment
+..\venv\Scripts\Activate.ps1
+
+# Install dependencies (only the first time)
+pip install -r requirements.txt
+
+# Run the Flask application
+python app.py
 
 http://127.0.0.1:5000
